@@ -6,4 +6,4 @@ salario = float(input("informe seu salario"))
 despesas = float(input("digite o total de suas despesas mensais"))
 sobra = salario - despesas
 anos = 1000000 / sobra
-print("você ira demorar um total de ", anos, "para se tornar milionario")
+print("você ira demorar um total de ", anos, " meses para se tornar milionario")
