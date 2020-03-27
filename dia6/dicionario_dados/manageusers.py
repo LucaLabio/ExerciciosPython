@@ -25,4 +25,4 @@ while opcao=="I" or opcao=="P" or opcao=="E" or opcao=="L":
         excluir(usuario,input("Qual login deseja excluir? "))
     if opcao == "L":
         listar(usuario)
-    opcao = perguntar()
+    break

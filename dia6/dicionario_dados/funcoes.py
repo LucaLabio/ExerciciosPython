@@ -11,6 +11,8 @@ def pesquisar(dicionario, chave):
         print("Nome.............: " + lista[0])
         print("Ultimo acesso....: " + lista[1])
         print("Ultima estacao...: " + lista[2])
+    else:
+        print("Penis do vm e pequeno")
 def excluir(dicionario, chave):
     if dicionario.get(chave) != None:
         del dicionario[chave]
