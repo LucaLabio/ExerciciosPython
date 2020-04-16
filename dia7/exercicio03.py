@@ -4,5 +4,4 @@ diferentes."""
 n1 = [int(input("Digite um numero ")), int(input("Digite um segundo numero ")), int(input("Digite um terceiro numero "))]
 n1.sort()
 n1 = n1[::-1]
-
 print(n1)
