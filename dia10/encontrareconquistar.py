@@ -1,3 +1,3 @@
-texto = "eu amo python"
-print(texto.find("o"))
+texto = "AmoPython"
+print(texto.find("P"))
 print(texto.split(" "))
