@@ -1,0 +1,49 @@
+A empresa FOGUETE possui um ônibus com 48 lugares (24 nas janelas e 24 no
+corredor). Escreva um programa em Python que utilize 2 listas para controlar as
+poltronas que serão ocupadas no corredor e na janela. (vale 1 ponto)
+Considerações:
+0 significa poltrona desocupada
+1 significa poltrona ocupada
+O programa inicia com todas as poltronas desocupadas. (vale 0.5 ponto)
+Janela (Lista1)
+Corredor (Lista2)
+A seguir mostrar o seguinte menu: (vale 0.5 ponto)
+1 - Vender passagem
+2 - Cancelar compra
+3 - Mostrar mapa de ocupação
+4 - Sair
+(vale 1.5 ponto) Quando a opção escolhida for 1 (Vender passagem), deverá ser
+perguntado se o usuário deseja janela ou corredor e o número da poltrona (de 1 a
+24). O programa deverá verificar se está livre, ou seja, se o conteúdo no índice
+(número da poltrona desejada –1) está preenchido com 0. O programa deverá,
+então, dar uma das seguintes mensagens:
+- Venda realizada com sucesso! – Se a poltrona solicitada estiver livre, marcando-a
+como ocupada.
+- Poltrona ocupada. Venda não realizada! – Se a poltrona solicitada não estiver
+disponível para venda.
+0 0 0 0 0 0 0 0 0 0
+0 1 2 3 4 5 ... 21 22 23
+0 0 0 0 0 0 0 0 0 0
+0 1 2 3 4 5 ... 21 22 23
+(vale 1.5 ponto) Quando a opção escolhida for 2 (Cancelar passagem), o
+programa deverá perguntar qual o número da poltrona (de 1 a 24), se é janela ou
+corredor que deseja cancelar a compra. Se a poltrona estiver realmente ocupada
+(preenchido com 1) deverá trocar para 0 (desocupada). Emitir uma das seguintes
+mensagens:
+- Compra cancelada com sucesso! - Se a poltrona solicitada estiver ocupada,
+marcando-a como livre.
+- Poltrona livre. Compra não cancelada! - Se a poltrona solicitada não estiver
+ocupada.
+(vale 1.5 ponto) Quando o usuário escolher a opção 3 (Mostrar mapa de
+ocupação), mostrar na tela o exemplo de listagem abaixo:
+Janela Corredor
+(vale 1.0 ponto) Quando a opção 4 for escolhida (Sair), a execução do programa
+deverá ser finalizada.
+Validações:
+(vale 0.5 ponto)- Não aceitar opção diferente de 1, 2, 3 e 4.
+(vale 1.0 ponto) - Não permitir acesso ao 1 - Vender passagem quando todas as
+poltronas já estiverem ocupadas. Nesse caso, emitir a seguinte mensagem: Ônibus
+lotado. Opção inválida!
+(vale 1.0 ponto) - Não permitir acesso ao 2 - Cancelar compra se não tiver poltrona
+ocupada. Nesse caso, emitir a seguinte mensagem: Todas as poltronas estão livres.
+Opção inválida!
